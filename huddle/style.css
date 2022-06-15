@@ -1,0 +1,68 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+}
+
+.csa{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.intro{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color:   hsl(193, 100%, 96%);
+}
+
+.blogs{
+    background-color: hsl(193, 100%, 96%);
+}
+
+.bpost{
+    width: 90%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+@media screen and (max-width: 380px) {
+    body{
+        height: 100%;
+        background-color:  hsl(0, 100%, 74%);
+        background-image: url("images/bg-intro-mobile.png");
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .right{
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .left{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left:  4%;
+        margin-right:  4%;
+        width: 345px ;
+    }
+}
+
+.icon-social-twitter-circular:before {
+    content: "\e900";
+}
+.icon-facebook2:before {
+    content: "\ea91";
+}
+.icon-instagram:before {
+    content: "\ea92";
+}
