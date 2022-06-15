@@ -2,6 +2,12 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    margin: 0%;
+}
+
+.blogimg{
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -10,8 +16,25 @@ h1{
     font-weight: 600;
 }
 
-footer{
+.flex-conf{
+    display: flex;
     background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+}
+
+.col2 > a, .col3 > a{
+    color: white;
+    text-decoration: none;
+}
+
+.col2 > a:hover, .col3 > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.location, .phone, .mail{
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .csa{
@@ -24,14 +47,25 @@ footer{
     background-color:   hsl(193, 100%, 96%);
 }
 
+.head{
+    padding: 20px;
+    text-align: center;
+}
+
+
 .blogs{
-    background-color: hsl(193, 100%, 96%);
+    background-color: #ffffff;
 }
 
 .bpost{
-    width: 90%;
+    margin: 5% auto;
+    width: 70%;
     border-radius: 10px;
+    border-color: rgb(0, 0, 0);
     padding: 25px;
+    box-shadow: 5px 5px 10px hsl(193, 100%, 96%),
+                -5px -5px 10px hsl(193, 100%, 96%);
+    
 }
 
 @media screen and (max-width: 380px) {
